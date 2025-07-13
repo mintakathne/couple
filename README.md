@@ -1,29 +1,22 @@
-#💑 Couple - Lovers Web App
+This project is a simple and elegant web application created for me and my boyfriend. It aims to be a platform where we can save our special days, notes, and shared plans.
 
-Bu proje, ben ve erkek arkadaşım için hazırlanmış basit ve şık bir web uygulamasıdır. Özel günlerimizi, notlarımı ve ortak planlarımızı kaydedebileceğimiz bir platform hedeflenmiştir.
+🛠️ Technologies Used
 
-#🛠️ Kullanılan Teknolojiler
+HTML / CSS
+ASP.NET Core
+Visual Studio
 
-- HTML / CSS
-- ASP.NET Core 
-- Visual Studio 
+🚀 Installation and Running
 
-#📂 Proje Yapısı
+Clone this repo or download it as a ZIP:
+git clone https://github.com/mintakathne/couple
 
-- `uygulama/` klasörü: Projenin ana dosyaları
-- `.sln` dosyası: Visual Studio çözüm dosyası
-- `.vs/`: Geliştirici ortamına özel ayarlar (isteğe bağlı olarak gitignore'a alınabilir)
+✨ Features
 
-#🚀 Kurulum ve Çalıştırma
+Display of shared special days
+Memory gallery
+Days passed counter
 
-1. Bu repoyu klonlayın veya ZIP olarak indirin:
-   ```bash
-   git clone https://github.com/mintakathne/couple
-   
-✨ Özellikler
-Ortak gerçekleştirilen günlerin sergilenmesi
-Anı galerisi
-Geçirilen gün sayacı
+📌 Notes
 
-📌 Notlar
-Bu proje kişisel öğrenme amaçlıdır ve ilerleyen zamanlarda geliştirilmeye açıktır.
+This project is for personal learning purposes and is open for future development.
