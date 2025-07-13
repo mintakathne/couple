@@ -1,0 +1,127 @@
+﻿@page
+@model AlbumModel
+@{
+    ViewData["Title"] = "";
+}
+<h1>@ViewData["Title"]</h1>
+<style>
+    body {
+        background-color: black; /* pastel mavi tonu */
+    }
+</style>
+<div class="photo-gallery">
+    <img src="~/img/ask1.jpeg" class="photo" alt="Fotoğraf 1" onclick="openModal(this)" style="--i:0">
+    <img src="~/img/ask2.jpeg" class="photo" alt="Fotoğraf 2" onclick="openModal(this)" style="--i:1">
+    <img src="~/img/ask3.jpeg" class="photo" alt="Fotoğraf 3" onclick="openModal(this)" style="--i:2">
+    <img src="~/img/ask4.jpeg" class="photo" alt="Fotoğraf 4" onclick="openModal(this)" style="--i:3">
+    <img src="~/img/ask5.jpeg" class="photo" alt="Fotoğraf 5" onclick="openModal(this)" style="--i:4">
+    <img src="~/img/ask6.jpeg" class="photo" alt="Fotoğraf 6" onclick="openModal(this)" style="--i:5">
+    <img src="~/img/ask7.jpeg" class="photo" alt="Fotoğraf 7" onclick="openModal(this)" style="--i:6">
+    <img src="~/img/ask8.jpeg" class="photo" alt="Fotoğraf 8" onclick="openModal(this)" style="--i:7">
+    <img src="~/img/ozel.jpeg" class="photo" alt="Fotoğraf 9" onclick="openModal(this)" style="--i:8">
+    <img src="~/img/img33.jpeg" class="photo" alt="Fotoğraf 10" onclick="openModal(this)" style="--i:9">
+    <img src="~/img/img11.jpeg" class="photo" alt="Fotoğraf 11" onclick="openModal(this)" style="--i:10">
+    <img src="~/img/img13.jpeg" class="photo" alt="Fotoğraf 12" onclick="openModal(this)" style="--i:11">
+    <img src="~/img/img29.jpeg" class="photo" alt="Fotoğraf 13" onclick="openModal(this)" style="--i:12">
+    <img src="~/img/img30.jpeg" class="photo" alt="Fotoğraf 14" onclick="openModal(this)" style="--i:13">
+    <img src="~/img/img31.jpeg" class="photo" alt="Fotoğraf 15" onclick="openModal(this)" style="--i:14">
+    <img src="~/img/img14.jpeg" class="photo" alt="Fotoğraf 16" onclick="openModal(this)" style="--i:15">
+    <img src="~/img/img16.jpeg" class="photo" alt="Fotoğraf 17" onclick="openModal(this)" style="--i:16">
+    <img src="~/img/img18.jpeg" class="photo" alt="Fotoğraf 18" onclick="openModal(this)" style="--i:17">
+    <img src="~/img/img19.jpeg" class="photo" alt="Fotoğraf 19" onclick="openModal(this)" style="--i:18">
+    <img src="~/img/img20.jpeg" class="photo" alt="Fotoğraf 20" onclick="openModal(this)" style="--i:19">
+    <img src="~/img/img48.jpeg" class="photo" alt="Fotoğraf 21" onclick="openModal(this)" style="--i:20">
+    <img src="~/img/img21.jpeg" class="photo" alt="Fotoğraf 22" onclick="openModal(this)" style="--i:21">
+    <img src="~/img/img25.jpeg" class="photo" alt="Fotoğraf 23" onclick="openModal(this)" style="--i:22">
+    <img src="~/img/img32.jpeg" class="photo" alt="Fotoğraf 24" onclick="openModal(this)" style="--i:23">
+    <img src="~/img/img23.jpeg" class="photo" alt="Fotoğraf 25" onclick="openModal(this)" style="--i:24">
+    <img src="~/img/img24.jpeg" class="photo" alt="Fotoğraf 26" onclick="openModal(this)" style="--i:25">
+    <img src="~/img/img15.jpeg" class="photo" alt="Fotoğraf 27" onclick="openModal(this)" style="--i:26">
+    <img src="~/img/img26.jpeg" class="photo" alt="Fotoğraf 28" onclick="openModal(this)" style="--i:27">
+    <img src="~/img/img17.jpeg" class="photo" alt="Fotoğraf 29" onclick="openModal(this)" style="--i:28">
+    <img src="~/img/img47.jpeg" class="photo" alt="Fotoğraf 30" onclick="openModal(this)" style="--i:29">
+    <img src="~/img/img60.jpeg" class="photo" alt="Fotoğraf 31" onclick="openModal(this)" style="--i:30">
+    <img src="~/img/img28.jpeg" class="photo" alt="Fotoğraf 32" onclick="openModal(this)" style="--i:31">
+    <img src="~/img/img22.jpeg" class="photo" alt="Fotoğraf 33" onclick="openModal(this)" style="--i:32">
+    <img src="~/img/img55.jpeg" class="photo" alt="Fotoğraf 34" onclick="openModal(this)" style="--i:33">
+    <img src="~/img/img56.jpeg" class="photo" alt="Fotoğraf 35" onclick="openModal(this)" style="--i:34">
+    <img src="~/img/img51.jpeg" class="photo" alt="Fotoğraf 36" onclick="openModal(this)" style="--i:35">
+    <img src="~/img/img34.jpeg" class="photo" alt="Fotoğraf 37" onclick="openModal(this)" style="--i:36">
+    <img src="~/img/img52.jpeg" class="photo" alt="Fotoğraf 38" onclick="openModal(this)" style="--i:37">
+    <img src="~/img/img43.jpeg" class="photo" alt="Fotoğraf 39" onclick="openModal(this)" style="--i:38">
+    <img src="~/img/img49.jpeg" class="photo" alt="Fotoğraf 40" onclick="openModal(this)" style="--i:39">
+    <img src="~/img/img36.jpeg" class="photo" alt="Fotoğraf 41" onclick="openModal(this)" style="--i:40">
+    <img src="~/img/img37.jpeg" class="photo" alt="Fotoğraf 42" onclick="openModal(this)" style="--i:41">
+    <img src="~/img/img38.jpeg" class="photo" alt="Fotoğraf 43" onclick="openModal(this)" style="--i:42">
+    <img src="~/img/img39.jpeg" class="photo" alt="Fotoğraf 44" onclick="openModal(this)" style="--i:44">
+    <img src="~/img/img44.jpeg" class="photo" alt="Fotoğraf 45" onclick="openModal(this)" style="--i:44">
+    <img src="~/img/img35.jpeg" class="photo" alt="Fotoğraf 46" onclick="openModal(this)" style="--i:45">
+    <img src="~/img/img50.jpeg" class="photo" alt="Fotoğraf 47" onclick="openModal(this)" style="--i:46">
+    <img src="~/img/img57.jpeg" class="photo" alt="Fotoğraf 48" onclick="openModal(this)" style="--i:47">
+    <img src="~/img/img58.jpeg" class="photo" alt="Fotoğraf 49" onclick="openModal(this)" style="--i:48">
+    <img src="~/img/img46.jpeg" class="photo" alt="Fotoğraf 50" onclick="openModal(this)" style="--i:49">
+    <img src="~/img/img53.jpeg" class="photo" alt="Fotoğraf 51" onclick="openModal(this)" style="--i:50">
+    <img src="~/img/img54.jpeg" class="photo" alt="Fotoğraf 52" onclick="openModal(this)" style="--i:51">
+    <img src="~/img/img27.jpeg" class="photo" alt="Fotoğraf 53" onclick="openModal(this)" style="--i:52">
+    <img src="~/img/img10.jpeg" class="photo" alt="Fotoğraf 54" onclick="openModal(this)" style="--i:53">
+    <img src="~/img/img12.jpeg" class="photo" alt="Fotoğraf 55" onclick="openModal(this)" style="--i:54">
+    <img src="~/img/img42.jpeg" class="photo" alt="Fotoğraf 56" onclick="openModal(this)" style="--i:55">
+    <img src="~/img/img41.jpeg" class="photo" alt="Fotoğraf 57" onclick="openModal(this)" style="--i:56">
+
+
+</div>
+<div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-img" class="modal-content">
+    <div id="caption"></div>
+</div>
+
+<!-- Sabit Kalp Butonu -->
+<div id="love-button" onclick="startLoveRain()">❤</div>
+
+
+<p class="love-note">
+    Ve daha eklenecek olan birçok fotoğraf daha... Hepsi için sabırsızlanıyorum sevgilim.
+</p>
+
+
+
+
+<script>
+    // Fotoğrafa tıklanınca modal'ı aç
+    function openModal(imgElement) {
+      var modal = document.getElementById("modal");
+      var modalImg = document.getElementById("modal-img");
+      var captionText = document.getElementById("caption");
+      modal.style.display = "block";
+      modalImg.src = imgElement.src;
+      captionText.innerHTML = imgElement.alt;  // Fotoğrafın alt yazısını ekle
+    }
+
+    // Modal'ı kapat
+    function closeModal() {
+      var modal = document.getElementById("modal");
+      modal.style.display = "none";
+    }
+        function startLoveRain() {
+      for (let i = 0; i < 30; i++) {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.textContent = "♥";
+
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * window.innerHeight;
+
+        heart.style.left = `${x}px`;
+        heart.style.top = `${y}px`;
+
+        document.body.appendChild(heart);
+
+        // Kalp 3 saniye sonra silinir
+        setTimeout(() => {
+          heart.remove();
+        }, 3000);
+      }
+    }
+</script>
+

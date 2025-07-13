@@ -1,0 +1,186 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "";
+}
+<h1>@ViewData["Title"]</h1>
+<style>
+    body {
+        background-color: #FFFDE7;
+        background-image: radial-gradient(#999 1px, transparent 1px);
+        background-size: 20px 20px, cover;
+        background-blend-mode:multiply
+    }
+</style>
+
+<div class="counter-box">
+    <h2 class="love-title">Birlikte geçirdiğimiz zamanımız </h2>
+    <h2 id="timeTogether">0 ay, 0 gün, 0 saat, 0 dk, 0 sn</h2>
+</div>
+
+<script>
+    const startDate = new Date("2024-11-21T00:00:00");
+    let fakeNow = new Date(startDate);
+    const realNow = new Date();
+    const totalDiff = realNow - startDate;
+
+    const steps = 100; // Kaç adımda ulaşsın
+    const stepTime = 17; // Her adımda kaç ms ilerlesin
+    const step = totalDiff / steps;
+
+    let count = 0;
+    let interval = setInterval(() => {
+      fakeNow = new Date(fakeNow.getTime() + step);
+      count++;
+
+      updateCounter(fakeNow);
+
+      if (count >= steps) {
+        clearInterval(interval);
+        // Gerçek zamana ulaştıktan sonra normal sayaç başlasın
+        setInterval(() => {
+          realNow.setSeconds(realNow.getSeconds() + 1);
+          updateCounter(new Date(startDate.getTime() + (realNow - startDate)));
+        }, 1000);
+      }
+    }, stepTime);
+
+    function updateCounter(currentTime) {
+      const diff = currentTime - startDate;
+
+      const seconds = Math.floor(diff / 1000) % 60;
+      const minutes = Math.floor(diff / (1000 * 60)) % 60;
+      const hours = Math.floor(diff / (1000 * 60 * 60)) % 24;
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const months = Math.floor(days / 30.44);
+      const years = Math.floor(days / 365.25);
+
+      const display = `${months % 12} ay, ${days % 30} gün, ${hours} saat, ${minutes} dk, ${seconds} sn `;
+      document.getElementById("timeTogether").innerText = display;
+    }
+</script>
+
+<div class="clickable-photo-container" onclick="showHearts()">
+<div class="photo-wrapper">
+<div class="blur-container" onclick="showImage(this)">
+ <img class ="foto" src="~/img/ask8.jpeg" />
+    <div class="click-text">bana tıkla!</div>
+
+</div>
+</div>
+</div>
+<div id="heart-container"></div>
+
+<script>
+    function showHearts() {
+      const container = document.getElementById("heart-container");
+
+      for (let i = 0; i < 100; i++) {
+        const heart = document.createElement("div");
+        heart.className = "heart";
+        heart.textContent = "♥";
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = (Math.random() * 1 + 1.5) + "s";
+        container.appendChild(heart);
+
+        setTimeout(() => {
+          heart.remove();
+        }, 2000);
+      }
+
+      // Blur'ı kaldır
+      document.querySelector(".blurred-photo").style.filter = "none";
+      document.querySelector(".click-text").style.display = "none";
+    }
+</script>
+
+
+<script>
+    function showImage(container) {
+      container.classList.add("open");
+    }
+</script>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="bantli-foto">
+<div class="alt-alta-fotolar">
+    <div class="foto-ve-not">
+        <img src="img/firstmet.jpeg" alt="Fotoğraf">
+        <p class="not">
+            📍 İlk buluşmamızın olduğu yer,  beni evden alıp yolları karıştıra karıştıra buraya kadar geldiğimiz gün :)
+            Her şey fazlasıyla güzeldi...                             
+            10.12.2024
+        </p>
+        <div class="ayar">
+        <img src="img/ask9.jpeg" class="ek-gorsel" alt="Yan görsel 1">
+    </div>
+
+        <p class="not">⏳​ Birlikte çekildiğimiz ilk fotoğraf, aldığım ilk çiçek... Benim için çok özel bir gün :) 29.01.2025</p>
+    </div>
+
+    <div class="foto-ve-not">
+        <img src="img/valentineday.jpeg" alt="Fotoğraf">
+        <p class="not">📍 Unutulmaz 14 Şubat rotasyonumuz... Beraber ilk kez kilyosa gittiğimiz gün </p>
+        <img src="img/img15.jpeg" class="ek-gorsel" alt="Yan görsel 1">
+        <p class="not">⏳​ Birlikte yediğimiz ilk tatlı, hem de gitmeyi en çok sevdiğimiz kafeden! </p>
+    </div>
+
+    <div class="foto-ve-not">
+        <img src="img/yanakiss.jpeg" alt="Fotoğraf">
+        <p class="not">
+            📍 Yanağımdan ilk kez öptüğün yer ve gecesinde beni sevdiğini söylediğin gün :)
+            21.11.2024
+        </p>
+        <img src="img/ask4.jpeg" class="ek-gorsel" alt="Yan görsel 1">
+        <p class="not">⏳​ Seninle geçirdiğim en unutulmaz gün, birlikte ilk kez ocakbaşına gittiğimiz o gün :) </p>
+    </div>
+</div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="mektup-kapsayici">
+    <div class="mektup-kapali" onclick="mektupAc()">
+        mektubu açmak için tıkla!
+    </div>
+    <div class="mektup-acik">
+        <div class="mektup-icerik">
+            <p>Sevgilim,</p>
+            <p>Birlikte yürüdüğümüz bu yolda 6. ayımıza giriyoruz ve ben seni her şeyden çok seviyorum. Seninle bir olduğum sürece kendimi asla yalnız hissetmedim, çünkü gölgen beni her şeyden korudu. Gün geçtikçe sana daha da bağlandım ve daha da aşık oldum. Sevgin o kadar güçlü ki bana hem sevmeyi öğretti hem de sevilmenin nasıl bir duygu olduğunu gösterdi. Hayatımızda birbirimize ışık olabilmenin ve yorulduğumuzda sırt sırta verip her şeyin üstesinden beraber gelebilmenin verdiği mutluluğu bana yaşattığın için ve benden 1 gün bile sevgini esirgemediğin için sana sonsuz teşekkür ederim. Unutma ki fırtınayı birlikte atlatanlar, güneşi yan yana karşılar :)  </p>
+            <p>Birlikte atacağımız her adımı, biriktireceğimiz hatıraları, geçireceğimiz güzel günlerimizi heyecanla bekliyorum. Seninle olduğum sürece her şeye varım, gülmeye de ağlamaya da. Yanındayım, hep yanında olacağım. Sana güveniyorum ve kalbim sonsuza kadar sana ait. İyi ki sen.</p>
+            <p>
+                Daha birlikte geçireceğimiz nice güzel günler, paylaşacağımız kahkahalar bizi bekliyor. Seni, her şeyden çok seviyorum.
+                Ve bu böyle hep kalacak…
+            </p>
+            <p style="text-align: right;">–esmoş</p>
+        </div>
+        <button class="kapat" onclick="mektupKapat()">X</button> <!-- Kapat butonu eklendi -->
+    </div>
+</div>
+
+
+
+<script>
+    function mektupAc() {
+      document.querySelector(".mektup-kapali").style.display = "none";
+      document.querySelector(".mektup-acik").style.display = "block";
+    }
+    function mektupKapat() {
+    document.querySelector(".mektup-acik").style.display = "none";
+    document.querySelector(".mektup-kapali").style.display = "block";
+    }
+</script>
+

@@ -1,0 +1,553 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\uygulama.bundle.scp.css",
+      "PackagePath": "staticwebassets\\uygulama.f53q933s0n.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\SpotifySetup.exe",
+      "PackagePath": "staticwebassets\\img\\SpotifySetup.exe"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask1.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask2.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask3.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask4.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask5.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask6.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask7.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask8.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ask9.jpeg",
+      "PackagePath": "staticwebassets\\img\\ask9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\askozel.lnk",
+      "PackagePath": "staticwebassets\\img\\askozel.lnk"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\back.jpg",
+      "PackagePath": "staticwebassets\\img\\back.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\bulusma.PNG",
+      "PackagePath": "staticwebassets\\img\\bulusma.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\firstmet.jpeg",
+      "PackagePath": "staticwebassets\\img\\firstmet.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img10.jpeg",
+      "PackagePath": "staticwebassets\\img\\img10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img11.jpeg",
+      "PackagePath": "staticwebassets\\img\\img11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img12.jpeg",
+      "PackagePath": "staticwebassets\\img\\img12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img13.jpeg",
+      "PackagePath": "staticwebassets\\img\\img13.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img14.jpeg",
+      "PackagePath": "staticwebassets\\img\\img14.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img15.jpeg",
+      "PackagePath": "staticwebassets\\img\\img15.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img16.jpeg",
+      "PackagePath": "staticwebassets\\img\\img16.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img17.jpeg",
+      "PackagePath": "staticwebassets\\img\\img17.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img18.jpeg",
+      "PackagePath": "staticwebassets\\img\\img18.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img19.jpeg",
+      "PackagePath": "staticwebassets\\img\\img19.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img20.jpeg",
+      "PackagePath": "staticwebassets\\img\\img20.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img21.jpeg",
+      "PackagePath": "staticwebassets\\img\\img21.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img22.jpeg",
+      "PackagePath": "staticwebassets\\img\\img22.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img23.jpeg",
+      "PackagePath": "staticwebassets\\img\\img23.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img24.jpeg",
+      "PackagePath": "staticwebassets\\img\\img24.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img25.jpeg",
+      "PackagePath": "staticwebassets\\img\\img25.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img26.jpeg",
+      "PackagePath": "staticwebassets\\img\\img26.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img27.jpeg",
+      "PackagePath": "staticwebassets\\img\\img27.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img28.jpeg",
+      "PackagePath": "staticwebassets\\img\\img28.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img29.jpeg",
+      "PackagePath": "staticwebassets\\img\\img29.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img30.jpeg",
+      "PackagePath": "staticwebassets\\img\\img30.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img31.jpeg",
+      "PackagePath": "staticwebassets\\img\\img31.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img32.jpeg",
+      "PackagePath": "staticwebassets\\img\\img32.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img33.jpeg",
+      "PackagePath": "staticwebassets\\img\\img33.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img34.jpeg",
+      "PackagePath": "staticwebassets\\img\\img34.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img35.jpeg",
+      "PackagePath": "staticwebassets\\img\\img35.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img36.jpeg",
+      "PackagePath": "staticwebassets\\img\\img36.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img37.jpeg",
+      "PackagePath": "staticwebassets\\img\\img37.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img38.jpeg",
+      "PackagePath": "staticwebassets\\img\\img38.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img39.jpeg",
+      "PackagePath": "staticwebassets\\img\\img39.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img41.jpeg",
+      "PackagePath": "staticwebassets\\img\\img41.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img42.jpeg",
+      "PackagePath": "staticwebassets\\img\\img42.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img43.jpeg",
+      "PackagePath": "staticwebassets\\img\\img43.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img44.jpeg",
+      "PackagePath": "staticwebassets\\img\\img44.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img45.jpeg",
+      "PackagePath": "staticwebassets\\img\\img45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img46.jpeg",
+      "PackagePath": "staticwebassets\\img\\img46.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img47.jpeg",
+      "PackagePath": "staticwebassets\\img\\img47.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img48.jpeg",
+      "PackagePath": "staticwebassets\\img\\img48.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img49.jpeg",
+      "PackagePath": "staticwebassets\\img\\img49.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img50.jpeg",
+      "PackagePath": "staticwebassets\\img\\img50.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img51.jpeg",
+      "PackagePath": "staticwebassets\\img\\img51.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img52.jpeg",
+      "PackagePath": "staticwebassets\\img\\img52.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img53.jpeg",
+      "PackagePath": "staticwebassets\\img\\img53.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img54.jpeg",
+      "PackagePath": "staticwebassets\\img\\img54.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img55.jpeg",
+      "PackagePath": "staticwebassets\\img\\img55.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img56.jpeg",
+      "PackagePath": "staticwebassets\\img\\img56.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img57.jpeg",
+      "PackagePath": "staticwebassets\\img\\img57.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img58.jpeg",
+      "PackagePath": "staticwebassets\\img\\img58.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img59.jpeg",
+      "PackagePath": "staticwebassets\\img\\img59.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img60.jpeg",
+      "PackagePath": "staticwebassets\\img\\img60.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img61.jpeg",
+      "PackagePath": "staticwebassets\\img\\img61.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\img62.jpeg",
+      "PackagePath": "staticwebassets\\img\\img62.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\ozel.jpeg",
+      "PackagePath": "staticwebassets\\img\\ozel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\valentineday.jpeg",
+      "PackagePath": "staticwebassets\\img\\valentineday.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\img\\yanakiss.jpeg",
+      "PackagePath": "staticwebassets\\img\\yanakiss.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\music\\beanie.mp3",
+      "PackagePath": "staticwebassets\\music\\beanie.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Esma\\Desktop\\uygulama\\uygulama\\wwwroot\\music\\boylesever.mp4",
+      "PackagePath": "staticwebassets\\music\\boylesever.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.uygulama.props",
+      "PackagePath": "build\\uygulama.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.uygulama.props",
+      "PackagePath": "buildMultiTargeting\\uygulama.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.uygulama.props",
+      "PackagePath": "buildTransitive\\uygulama.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.uygulama.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.uygulama.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
